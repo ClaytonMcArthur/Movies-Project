@@ -1,0 +1,14 @@
+[info] Movies: data4movies.txt | Customers: data4customers.txt | Commands: data4commands.txt | Completed log: completed_commands.txt
+ERROR: [16] invalid movie code 'Z' -> Z, 10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+ERROR: [24] invalid movie code 'Z' -> Z, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+ERROR: invalid movie code 'Z' in: B 1111 D Z 2 1971 Malcolm McDowell
+ERROR: invalid action code 'X' in: X
+ERROR: invalid action code 'Z' in: Z 1000 D C 10 1941 Humphrey Bogart
+ERROR: Unknown customer ID 1234
+ERROR: Borrow failed for customer 1000 movieType F key 'Bogus Title|2001'
+ERROR: invalid media type 'Z' in: B 1000 Z F Fargo, 1996
+ERROR: Borrow failed for customer 9000 movieType C key '1971-03|Ruth Gordon'
+ERROR: Borrow failed for customer 3333 movieType C key '1971-03|Ruth Gordon'
+ERROR: Borrow failed for customer 7777 movieType C key '1971-03|Ruth Gordon'
+ERROR: Borrow failed for customer 1000 movieType D key 'Steven Spielberg|Bogus Title'
+[info] Commands executed: 55 | skipped/malformed: 4
